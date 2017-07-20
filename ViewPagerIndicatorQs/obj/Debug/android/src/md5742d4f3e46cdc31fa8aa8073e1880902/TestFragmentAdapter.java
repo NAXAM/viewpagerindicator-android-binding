@@ -13,7 +13,7 @@ public class TestFragmentAdapter
 		__md_methods = 
 			"n_getCount:()I:GetGetCountHandler\n" +
 			"n_getItem:(I)Landroid/support/v4/app/Fragment;:GetGetItem_IHandler\n" +
-			"n_getIconResId:(I)I:GetGetIconResId_IHandler:Com.Viewpagerindicator.IIconPagerAdapterInvoker, ViewPagerIndicator-Binding-Droid\n" +
+			"n_getIconResId:(I)I:GetGetIconResId_IHandler:Com.Viewpagerindicator.IIconPagerAdapterInvoker, Naxam.ViewPagerIndicator.Droid\n" +
 			"";
 		mono.android.Runtime.register ("ViewPagerIndicatorQs.Views.TestFragmentAdapter, ViewPagerIndicatorQs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", TestFragmentAdapter.class, __md_methods);
 	}

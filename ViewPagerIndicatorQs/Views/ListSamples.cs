@@ -8,6 +8,7 @@ using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Runtime;
+using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
 using Java.Lang;
@@ -15,8 +16,8 @@ using Java.Util;
 
 namespace ViewPagerIndicatorQs.Views
 {
-    [Activity(Label = "ViewPagerIndicatorQs", MainLauncher = true, Icon = "@drawable/icon")]
-    public class ListSamples : Activity
+    [Activity(Label = "ViewPagerIndicatorQs", MainLauncher = true, Icon = "@mipmap/ic_launcher", Theme = "@style/MyTheme")]
+    public class ListSamples : AppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {

@@ -2,7 +2,7 @@ package md5742d4f3e46cdc31fa8aa8073e1880902;
 
 
 public class ListSamples
-	extends android.app.Activity
+	extends android.support.v7.app.AppCompatActivity
 	implements
 		mono.android.IGCUserPeer
 {

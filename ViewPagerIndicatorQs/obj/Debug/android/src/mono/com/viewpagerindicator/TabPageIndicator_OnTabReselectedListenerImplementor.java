@@ -11,9 +11,9 @@ public class TabPageIndicator_OnTabReselectedListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onTabReselected:(I)V:GetOnTabReselected_IHandler:Com.Viewpagerindicator.TabPageIndicator/IOnTabReselectedListenerInvoker, ViewPagerIndicator-Binding-Droid\n" +
+			"n_onTabReselected:(I)V:GetOnTabReselected_IHandler:Com.Viewpagerindicator.TabPageIndicator/IOnTabReselectedListenerInvoker, Naxam.ViewPagerIndicator.Droid\n" +
 			"";
-		mono.android.Runtime.register ("Com.Viewpagerindicator.TabPageIndicator+IOnTabReselectedListenerImplementor, ViewPagerIndicator-Binding-Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", TabPageIndicator_OnTabReselectedListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("Com.Viewpagerindicator.TabPageIndicator+IOnTabReselectedListenerImplementor, Naxam.ViewPagerIndicator.Droid, Version=2.4.1.0, Culture=neutral, PublicKeyToken=null", TabPageIndicator_OnTabReselectedListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class TabPageIndicator_OnTabReselectedListenerImplementor
 	{
 		super ();
 		if (getClass () == TabPageIndicator_OnTabReselectedListenerImplementor.class)
-			mono.android.TypeManager.Activate ("Com.Viewpagerindicator.TabPageIndicator+IOnTabReselectedListenerImplementor, ViewPagerIndicator-Binding-Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("Com.Viewpagerindicator.TabPageIndicator+IOnTabReselectedListenerImplementor, Naxam.ViewPagerIndicator.Droid, Version=2.4.1.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
 

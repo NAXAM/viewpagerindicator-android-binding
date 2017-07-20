@@ -12,7 +12,7 @@ public class SampleTitlesCenterClickListener
 	static {
 		__md_methods = 
 			"n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler\n" +
-			"n_onCenterItemClick:(I)V:GetOnCenterItemClick_IHandler:Com.Viewpagerindicator.TitlePageIndicator/IOnCenterItemClickListenerInvoker, ViewPagerIndicator-Binding-Droid\n" +
+			"n_onCenterItemClick:(I)V:GetOnCenterItemClick_IHandler:Com.Viewpagerindicator.TitlePageIndicator/IOnCenterItemClickListenerInvoker, Naxam.ViewPagerIndicator.Droid\n" +
 			"";
 		mono.android.Runtime.register ("ViewPagerIndicatorQs.Views.SampleTitlesCenterClickListener, ViewPagerIndicatorQs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", SampleTitlesCenterClickListener.class, __md_methods);
 	}

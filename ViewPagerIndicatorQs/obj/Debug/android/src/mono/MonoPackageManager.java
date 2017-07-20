@@ -99,7 +99,8 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "ViewPagerIndicatorQs.dll" comes first in this list. */
 		"ViewPagerIndicatorQs.dll",
-		"ViewPagerIndicator-Binding-Droid.dll",
+		"Naxam.ViewPagerIndicator.Droid.dll",
+		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Annotations.dll",
 		"Xamarin.Android.Support.Compat.dll",
 		"Xamarin.Android.Support.Core.UI.dll",
@@ -107,6 +108,8 @@ class MonoPackageManager_Resources {
 		"Xamarin.Android.Support.Fragment.dll",
 		"Xamarin.Android.Support.Media.Compat.dll",
 		"Xamarin.Android.Support.v4.dll",
+		"Xamarin.Android.Support.v7.AppCompat.dll",
+		"Xamarin.Android.Support.Vector.Drawable.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

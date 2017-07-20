@@ -11,9 +11,9 @@ public class TitlePageIndicator_OnCenterItemClickListenerImplementor
 	public static final String __md_methods;
 	static {
 		__md_methods = 
-			"n_onCenterItemClick:(I)V:GetOnCenterItemClick_IHandler:Com.Viewpagerindicator.TitlePageIndicator/IOnCenterItemClickListenerInvoker, ViewPagerIndicator-Binding-Droid\n" +
+			"n_onCenterItemClick:(I)V:GetOnCenterItemClick_IHandler:Com.Viewpagerindicator.TitlePageIndicator/IOnCenterItemClickListenerInvoker, Naxam.ViewPagerIndicator.Droid\n" +
 			"";
-		mono.android.Runtime.register ("Com.Viewpagerindicator.TitlePageIndicator+IOnCenterItemClickListenerImplementor, ViewPagerIndicator-Binding-Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", TitlePageIndicator_OnCenterItemClickListenerImplementor.class, __md_methods);
+		mono.android.Runtime.register ("Com.Viewpagerindicator.TitlePageIndicator+IOnCenterItemClickListenerImplementor, Naxam.ViewPagerIndicator.Droid, Version=2.4.1.0, Culture=neutral, PublicKeyToken=null", TitlePageIndicator_OnCenterItemClickListenerImplementor.class, __md_methods);
 	}
 
 
@@ -21,7 +21,7 @@ public class TitlePageIndicator_OnCenterItemClickListenerImplementor
 	{
 		super ();
 		if (getClass () == TitlePageIndicator_OnCenterItemClickListenerImplementor.class)
-			mono.android.TypeManager.Activate ("Com.Viewpagerindicator.TitlePageIndicator+IOnCenterItemClickListenerImplementor, ViewPagerIndicator-Binding-Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
+			mono.android.TypeManager.Activate ("Com.Viewpagerindicator.TitlePageIndicator+IOnCenterItemClickListenerImplementor, Naxam.ViewPagerIndicator.Droid, Version=2.4.1.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
 

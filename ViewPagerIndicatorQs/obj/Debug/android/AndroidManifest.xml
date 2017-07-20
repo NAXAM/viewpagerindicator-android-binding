@@ -7,7 +7,7 @@
   <application android:label="ViewPagerIndicatorQs" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
     <activity android:name="md5742d4f3e46cdc31fa8aa8073e1880902.SampleUnderlinesStyledMethods" />
     <activity android:name="md5742d4f3e46cdc31fa8aa8073e1880902.SampleUnderlinesStyledLayout" />
-    <activity android:icon="@drawable/icon" android:label="ViewPagerIndicatorQs" android:name="md5742d4f3e46cdc31fa8aa8073e1880902.ListSamples">
+    <activity android:icon="@mipmap/ic_launcher" android:label="ViewPagerIndicatorQs" android:theme="@style/MyTheme" android:name="md5742d4f3e46cdc31fa8aa8073e1880902.ListSamples">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

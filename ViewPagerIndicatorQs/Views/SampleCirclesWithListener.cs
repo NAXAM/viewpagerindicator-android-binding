@@ -39,19 +39,13 @@ namespace ViewPagerIndicatorQs.Views
         }
     }
 
-    class OnPageChangeListener : ViewPager.IOnPageChangeListener
+    class OnPageChangeListener : Java.Lang.Object, ViewPager.IOnPageChangeListener
     {
         Action<int> PageSelected;
 
         public OnPageChangeListener(Action<int> PageSelected)
         {
             this.PageSelected = PageSelected;
-        }
-        public IntPtr Handle => throw new NotImplementedException();
-
-        public void Dispose()
-        {
-            throw new NotImplementedException();
         }
 
         public void OnPageScrolled(int position, float positionOffset, int positionOffsetPixels)

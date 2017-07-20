@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>Naxam.ViewPagerIndicator.Droid</id>
+        <version>2.4.1</version>
+        <description>Xamarin Binding Library - JakeWharton::ViewPagerIndicator</description>
+        <authors>NAXAM</authors>
+        <owners>NAXAM CO.,LTD</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>Naxam - JakeWharton::ViewPagerIndicator</title>
+        <releaseNotes>JakeWharton::ViewPagerIndicator v2.4.1</releaseNotes>
+        <summary>Xamarin Binding Library - JakeWharton::ViewPagerIndicator</summary>
+        <iconUrl>https://avatars1.githubusercontent.com/u/25535951</iconUrl>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/NAXAM/viewpagerindicator-android-binding</projectUrl>
+        <copyright>Copyright (c) 2017 NAXAM</copyright>
+        <tags>Xamarin.Android, viewpagerindicator</tags>
+        <dependencies>
+            <dependency id="Xamarin.Android.Support.v4" version="25.3.1" />
+        </dependencies>
+    </metadata>
+    <!-- Optional 'files' node -->
+    <files>
+        <file src="Naxam.ViewPagerIndicator.Droid/bin/Release/Naxam.ViewPagerIndicator.Droid.dll" target="lib/MonoAndroid10/Naxam.ViewPagerIndicator.Droid.dll" />
+    </files>
+</package>
