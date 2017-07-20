@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="ViewPagerIndicatorQs.ViewPagerIndicatorQs" android:versionCode="1" android:versionName="1.0">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="16" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <application android:label="ViewPagerIndicatorQs" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+    <activity android:name="md5742d4f3e46cdc31fa8aa8073e1880902.SampleUnderlinesStyledMethods" />
+    <activity android:name="md5742d4f3e46cdc31fa8aa8073e1880902.SampleUnderlinesStyledLayout" />
+    <activity android:icon="@drawable/icon" android:label="ViewPagerIndicatorQs" android:name="md5742d4f3e46cdc31fa8aa8073e1880902.ListSamples">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:name="md5742d4f3e46cdc31fa8aa8073e1880902.SampleCirclesDefault" />
+    <activity android:name="md5742d4f3e46cdc31fa8aa8073e1880902.SampleCirclesInitialPage" />
+    <activity android:name="md5742d4f3e46cdc31fa8aa8073e1880902.SampleCirclesSnap" />
+    <activity android:name="md5742d4f3e46cdc31fa8aa8073e1880902.SampleCirclesStyledLayout" />
+    <activity android:name="md5742d4f3e46cdc31fa8aa8073e1880902.SampleCirclesStyledMethods" />
+    <activity android:name="md5742d4f3e46cdc31fa8aa8073e1880902.SampleCirclesStyledTheme" />
+    <activity android:name="md5742d4f3e46cdc31fa8aa8073e1880902.SampleCirclesWithListener" />
+    <activity android:name="md5742d4f3e46cdc31fa8aa8073e1880902.SampleIconsDefault" />
+    <activity android:name="md5742d4f3e46cdc31fa8aa8073e1880902.SampleLinesDefault" />
+    <activity android:name="md5742d4f3e46cdc31fa8aa8073e1880902.SampleLinesStyledLayout" />
+    <activity android:name="md5742d4f3e46cdc31fa8aa8073e1880902.SampleLinesStyledMethods" />
+    <activity android:name="md5742d4f3e46cdc31fa8aa8073e1880902.SampleLinesStyledTheme" />
+    <activity android:name="md5742d4f3e46cdc31fa8aa8073e1880902.SampleTabsDefault" />
+    <activity android:name="md5742d4f3e46cdc31fa8aa8073e1880902.SampleTabsStyled" />
+    <activity android:name="md5742d4f3e46cdc31fa8aa8073e1880902.SampleTabsWithIcons" />
+    <activity android:name="md5742d4f3e46cdc31fa8aa8073e1880902.SampleTitlesBottom" />
+    <activity android:name="md5742d4f3e46cdc31fa8aa8073e1880902.SampleTitlesCenterClickListener" />
+    <activity android:name="md5742d4f3e46cdc31fa8aa8073e1880902.SampleTitlesDefault" />
+    <activity android:name="md5742d4f3e46cdc31fa8aa8073e1880902.SampleTitlesInitialPage" />
+    <activity android:name="md5742d4f3e46cdc31fa8aa8073e1880902.SampleTitlesStyledLayout" />
+    <activity android:name="md5742d4f3e46cdc31fa8aa8073e1880902.SampleTitlesStyledMethods" />
+    <activity android:name="md5742d4f3e46cdc31fa8aa8073e1880902.SampleTitlesStyledTheme" />
+    <activity android:name="md5742d4f3e46cdc31fa8aa8073e1880902.SampleTitlesTriangle" />
+    <activity android:name="md5742d4f3e46cdc31fa8aa8073e1880902.SampleTitlesWithListener" />
+    <activity android:name="md5742d4f3e46cdc31fa8aa8073e1880902.SampleUnderlinesDefault" />
+    <activity android:name="md5742d4f3e46cdc31fa8aa8073e1880902.SampleUnderlinesNoFade" />
+    <activity android:name="md5742d4f3e46cdc31fa8aa8073e1880902.SampleUnderlinesStyledTheme" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="ViewPagerIndicatorQs.ViewPagerIndicatorQs.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.ViewPagerIndicatorQs.ViewPagerIndicatorQs" />
+      </intent-filter>
+    </receiver>
+  </application>
+  <meta-data android:name="android.support.VERSION" android:value="25.3.1" />
+</manifest>

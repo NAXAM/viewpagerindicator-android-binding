@@ -1,0 +1,794 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<api>
+  <package name="com.viewpagerindicator">
+    <class abstract="false" deprecated="not deprecated" extends="android.view.View" extends-generic-aware="android.view.View" final="false" name="CirclePageIndicator" static="false" visibility="public">
+      <implements name="com.viewpagerindicator.PageIndicator" name-generic-aware="com.viewpagerindicator.PageIndicator">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="CirclePageIndicator" static="false" type="com.viewpagerindicator.CirclePageIndicator" visibility="public">
+        <parameter name="p0" type="android.content.Context">
+        </parameter>
+        <parameter name="p1" type="android.util.AttributeSet">
+        </parameter>
+        <parameter name="p2" type="int">
+        </parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="CirclePageIndicator" static="false" type="com.viewpagerindicator.CirclePageIndicator" visibility="public">
+        <parameter name="p0" type="android.content.Context">
+        </parameter>
+        <parameter name="p1" type="android.util.AttributeSet">
+        </parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="CirclePageIndicator" static="false" type="com.viewpagerindicator.CirclePageIndicator" visibility="public">
+        <parameter name="p0" type="android.content.Context">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFillColor" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getOrientation" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getPageColor" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getRadius" native="false" return="float" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getStrokeColor" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getStrokeWidth" native="false" return="float" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isCentered" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isSnap" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="notifyDataSetChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onPageScrollStateChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onPageScrolled" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+        <parameter name="p1" type="float">
+        </parameter>
+        <parameter name="p2" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onPageSelected" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onRestoreInstanceState" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.os.Parcelable">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onSaveInstanceState" native="false" return="android.os.Parcelable" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCentered" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCurrentItem" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setFillColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOnPageChangeListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.support.v4.view.ViewPager.OnPageChangeListener">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOrientation" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setPageColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setRadius" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="float">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSnap" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setStrokeColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setStrokeWidth" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="float">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setViewPager" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.support.v4.view.ViewPager">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setViewPager" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.support.v4.view.ViewPager">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="CirclePageIndicator.1" static="true" visibility="" />
+    <class abstract="false" deprecated="not deprecated" extends="android.view.View.BaseSavedState" extends-generic-aware="android.view.View.BaseSavedState" final="false" name="CirclePageIndicator.SavedState" static="true" visibility="">
+      <constructor deprecated="not deprecated" final="false" name="CirclePageIndicator.SavedState" static="false" type="com.viewpagerindicator.CirclePageIndicator.SavedState" visibility="public">
+        <parameter name="p0" type="android.os.Parcelable">
+        </parameter>
+      </constructor>
+      <field deprecated="not deprecated" final="true" name="CREATOR" static="true" transient="false" type="android.os.Parcelable.Creator" type-generic-aware="android.os.Parcelable.Creator&lt;com.viewpagerindicator.CirclePageIndicator.SavedState&gt;" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="CirclePageIndicator.SavedState.1" static="true" visibility="">
+      <implements name="android.os.Parcelable.Creator" name-generic-aware="android.os.Parcelable.Creator&lt;com.viewpagerindicator.CirclePageIndicator.SavedState&gt;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="createFromParcel" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.os.Parcel">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="newArray" native="false" return="java.lang.Object[]" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.widget.HorizontalScrollView" extends-generic-aware="android.widget.HorizontalScrollView" final="false" name="IconPageIndicator" static="false" visibility="public">
+      <implements name="com.viewpagerindicator.PageIndicator" name-generic-aware="com.viewpagerindicator.PageIndicator">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="IconPageIndicator" static="false" type="com.viewpagerindicator.IconPageIndicator" visibility="public">
+        <parameter name="p0" type="android.content.Context">
+        </parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="IconPageIndicator" static="false" type="com.viewpagerindicator.IconPageIndicator" visibility="public">
+        <parameter name="p0" type="android.content.Context">
+        </parameter>
+        <parameter name="p1" type="android.util.AttributeSet">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="notifyDataSetChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onAttachedToWindow" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onDetachedFromWindow" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onPageScrollStateChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onPageScrolled" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+        <parameter name="p1" type="float">
+        </parameter>
+        <parameter name="p2" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onPageSelected" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCurrentItem" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOnPageChangeListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.support.v4.view.ViewPager.OnPageChangeListener">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setViewPager" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.support.v4.view.ViewPager">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setViewPager" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.support.v4.view.ViewPager">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="IconPageIndicator.1" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="IconPagerAdapter" static="false" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="getCount" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="getIconResId" native="false" return="int" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="android.widget.LinearLayout" extends-generic-aware="android.widget.LinearLayout" final="false" name="IcsLinearLayout" static="false" visibility="">
+      <constructor deprecated="not deprecated" final="false" name="IcsLinearLayout" static="false" type="com.viewpagerindicator.IcsLinearLayout" visibility="public">
+        <parameter name="p0" type="android.content.Context">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </constructor>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.view.View" extends-generic-aware="android.view.View" final="false" name="LinePageIndicator" static="false" visibility="public">
+      <implements name="com.viewpagerindicator.PageIndicator" name-generic-aware="com.viewpagerindicator.PageIndicator">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="LinePageIndicator" static="false" type="com.viewpagerindicator.LinePageIndicator" visibility="public">
+        <parameter name="p0" type="android.content.Context">
+        </parameter>
+        <parameter name="p1" type="android.util.AttributeSet">
+        </parameter>
+        <parameter name="p2" type="int">
+        </parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="LinePageIndicator" static="false" type="com.viewpagerindicator.LinePageIndicator" visibility="public">
+        <parameter name="p0" type="android.content.Context">
+        </parameter>
+        <parameter name="p1" type="android.util.AttributeSet">
+        </parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="LinePageIndicator" static="false" type="com.viewpagerindicator.LinePageIndicator" visibility="public">
+        <parameter name="p0" type="android.content.Context">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getGapWidth" native="false" return="float" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getLineWidth" native="false" return="float" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getSelectedColor" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getStrokeWidth" native="false" return="float" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getUnselectedColor" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isCentered" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="notifyDataSetChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onPageScrollStateChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onPageScrolled" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+        <parameter name="p1" type="float">
+        </parameter>
+        <parameter name="p2" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onPageSelected" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onRestoreInstanceState" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.os.Parcelable">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onSaveInstanceState" native="false" return="android.os.Parcelable" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCentered" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCurrentItem" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setGapWidth" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="float">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setLineWidth" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="float">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOnPageChangeListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.support.v4.view.ViewPager.OnPageChangeListener">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSelectedColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setStrokeWidth" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="float">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setUnselectedColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setViewPager" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.support.v4.view.ViewPager">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setViewPager" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.support.v4.view.ViewPager">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="LinePageIndicator.1" static="true" visibility="" />
+    <class abstract="false" deprecated="not deprecated" extends="android.view.View.BaseSavedState" extends-generic-aware="android.view.View.BaseSavedState" final="false" name="LinePageIndicator.SavedState" static="true" visibility="">
+      <constructor deprecated="not deprecated" final="false" name="LinePageIndicator.SavedState" static="false" type="com.viewpagerindicator.LinePageIndicator.SavedState" visibility="public">
+        <parameter name="p0" type="android.os.Parcelable">
+        </parameter>
+      </constructor>
+      <field deprecated="not deprecated" final="true" name="CREATOR" static="true" transient="false" type="android.os.Parcelable.Creator" type-generic-aware="android.os.Parcelable.Creator&lt;com.viewpagerindicator.LinePageIndicator.SavedState&gt;" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="LinePageIndicator.SavedState.1" static="true" visibility="">
+      <implements name="android.os.Parcelable.Creator" name-generic-aware="android.os.Parcelable.Creator&lt;com.viewpagerindicator.LinePageIndicator.SavedState&gt;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="createFromParcel" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.os.Parcel">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="newArray" native="false" return="java.lang.Object[]" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="PageIndicator" static="false" visibility="public">
+      <implements name="android.support.v4.view.ViewPager.OnPageChangeListener" name-generic-aware="android.support.v4.view.ViewPager.OnPageChangeListener">
+      </implements>
+      <method abstract="true" deprecated="not deprecated" final="false" name="notifyDataSetChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setCurrentItem" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setOnPageChangeListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.support.v4.view.ViewPager.OnPageChangeListener">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setViewPager" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.support.v4.view.ViewPager">
+        </parameter>
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="setViewPager" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.support.v4.view.ViewPager">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="android.widget.HorizontalScrollView" extends-generic-aware="android.widget.HorizontalScrollView" final="false" name="TabPageIndicator" static="false" visibility="public">
+      <implements name="com.viewpagerindicator.PageIndicator" name-generic-aware="com.viewpagerindicator.PageIndicator">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="TabPageIndicator" static="false" type="com.viewpagerindicator.TabPageIndicator" visibility="public">
+        <parameter name="p0" type="android.content.Context">
+        </parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="TabPageIndicator" static="false" type="com.viewpagerindicator.TabPageIndicator" visibility="public">
+        <parameter name="p0" type="android.content.Context">
+        </parameter>
+        <parameter name="p1" type="android.util.AttributeSet">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="notifyDataSetChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onAttachedToWindow" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onDetachedFromWindow" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onMeasure" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onPageScrollStateChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onPageScrolled" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+        <parameter name="p1" type="float">
+        </parameter>
+        <parameter name="p2" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onPageSelected" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCurrentItem" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOnPageChangeListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.support.v4.view.ViewPager.OnPageChangeListener">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOnTabReselectedListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.viewpagerindicator.TabPageIndicator.OnTabReselectedListener">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setViewPager" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.support.v4.view.ViewPager">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setViewPager" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.support.v4.view.ViewPager">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="TabPageIndicator.1" static="false" visibility="">
+      <implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.view.View">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="TabPageIndicator.2" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="TabPageIndicator.OnTabReselectedListener" static="true" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onTabReselected" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="android.widget.TextView" extends-generic-aware="android.widget.TextView" final="false" name="TabPageIndicator.TabView" static="false" visibility="">
+      <constructor deprecated="not deprecated" final="false" name="TabPageIndicator.TabView" static="false" type="com.viewpagerindicator.TabPageIndicator.TabView" visibility="public">
+        <parameter name="p1" type="android.content.Context">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getIndex" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onMeasure" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.view.View" extends-generic-aware="android.view.View" final="false" name="TitlePageIndicator" static="false" visibility="public">
+      <implements name="com.viewpagerindicator.PageIndicator" name-generic-aware="com.viewpagerindicator.PageIndicator">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="TitlePageIndicator" static="false" type="com.viewpagerindicator.TitlePageIndicator" visibility="public">
+        <parameter name="p0" type="android.content.Context">
+        </parameter>
+        <parameter name="p1" type="android.util.AttributeSet">
+        </parameter>
+        <parameter name="p2" type="int">
+        </parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="TitlePageIndicator" static="false" type="com.viewpagerindicator.TitlePageIndicator" visibility="public">
+        <parameter name="p0" type="android.content.Context">
+        </parameter>
+        <parameter name="p1" type="android.util.AttributeSet">
+        </parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="TitlePageIndicator" static="false" type="com.viewpagerindicator.TitlePageIndicator" visibility="public">
+        <parameter name="p0" type="android.content.Context">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getClipPadding" native="false" return="float" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFooterColor" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFooterIndicatorHeight" native="false" return="float" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFooterIndicatorPadding" native="false" return="float" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFooterIndicatorStyle" native="false" return="com.viewpagerindicator.TitlePageIndicator.IndicatorStyle" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFooterLineHeight" native="false" return="float" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getLinePosition" native="false" return="com.viewpagerindicator.TitlePageIndicator.LinePosition" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getSelectedColor" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getTextColor" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getTextSize" native="false" return="float" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getTitlePadding" native="false" return="float" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getTopPadding" native="false" return="float" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getTypeface" native="false" return="android.graphics.Typeface" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isSelectedBold" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="notifyDataSetChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onPageScrollStateChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onPageScrolled" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+        <parameter name="p1" type="float">
+        </parameter>
+        <parameter name="p2" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onPageSelected" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onRestoreInstanceState" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.os.Parcelable">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onSaveInstanceState" native="false" return="android.os.Parcelable" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setClipPadding" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="float">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCurrentItem" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setFooterColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setFooterIndicatorHeight" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="float">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setFooterIndicatorPadding" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="float">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setFooterIndicatorStyle" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.viewpagerindicator.TitlePageIndicator.IndicatorStyle">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setFooterLineHeight" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="float">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setLinePosition" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.viewpagerindicator.TitlePageIndicator.LinePosition">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOnCenterItemClickListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="com.viewpagerindicator.TitlePageIndicator.OnCenterItemClickListener">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOnPageChangeListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.support.v4.view.ViewPager.OnPageChangeListener">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSelectedBold" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSelectedColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setTextColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setTextSize" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="float">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setTitlePadding" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="float">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setTopPadding" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="float">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setTypeface" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.graphics.Typeface">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setViewPager" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.support.v4.view.ViewPager">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setViewPager" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.support.v4.view.ViewPager">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="TitlePageIndicator.1" static="true" visibility="" />
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.viewpagerindicator.TitlePageIndicator.IndicatorStyle&gt;" final="true" name="TitlePageIndicator.IndicatorStyle" static="true" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="fromValue" native="false" return="com.viewpagerindicator.TitlePageIndicator.IndicatorStyle" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" native="false" return="com.viewpagerindicator.TitlePageIndicator.IndicatorStyle" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" native="false" return="com.viewpagerindicator.TitlePageIndicator.IndicatorStyle[]" static="true" synchronized="false" visibility="public">
+      </method>
+      <field deprecated="not deprecated" final="true" name="None" static="true" transient="false" type="com.viewpagerindicator.TitlePageIndicator.IndicatorStyle" type-generic-aware="com.viewpagerindicator.TitlePageIndicator.IndicatorStyle" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="Triangle" static="true" transient="false" type="com.viewpagerindicator.TitlePageIndicator.IndicatorStyle" type-generic-aware="com.viewpagerindicator.TitlePageIndicator.IndicatorStyle" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="Underline" static="true" transient="false" type="com.viewpagerindicator.TitlePageIndicator.IndicatorStyle" type-generic-aware="com.viewpagerindicator.TitlePageIndicator.IndicatorStyle" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="value" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.viewpagerindicator.TitlePageIndicator.LinePosition&gt;" final="true" name="TitlePageIndicator.LinePosition" static="true" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="fromValue" native="false" return="com.viewpagerindicator.TitlePageIndicator.LinePosition" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" native="false" return="com.viewpagerindicator.TitlePageIndicator.LinePosition" static="true" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" native="false" return="com.viewpagerindicator.TitlePageIndicator.LinePosition[]" static="true" synchronized="false" visibility="public">
+      </method>
+      <field deprecated="not deprecated" final="true" name="Bottom" static="true" transient="false" type="com.viewpagerindicator.TitlePageIndicator.LinePosition" type-generic-aware="com.viewpagerindicator.TitlePageIndicator.LinePosition" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="Top" static="true" transient="false" type="com.viewpagerindicator.TitlePageIndicator.LinePosition" type-generic-aware="com.viewpagerindicator.TitlePageIndicator.LinePosition" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="value" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+      </field>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="TitlePageIndicator.OnCenterItemClickListener" static="true" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onCenterItemClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="android.view.View.BaseSavedState" extends-generic-aware="android.view.View.BaseSavedState" final="false" name="TitlePageIndicator.SavedState" static="true" visibility="">
+      <constructor deprecated="not deprecated" final="false" name="TitlePageIndicator.SavedState" static="false" type="com.viewpagerindicator.TitlePageIndicator.SavedState" visibility="public">
+        <parameter name="p0" type="android.os.Parcelable">
+        </parameter>
+      </constructor>
+      <field deprecated="not deprecated" final="true" name="CREATOR" static="true" transient="false" type="android.os.Parcelable.Creator" type-generic-aware="android.os.Parcelable.Creator&lt;com.viewpagerindicator.TitlePageIndicator.SavedState&gt;" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="TitlePageIndicator.SavedState.1" static="true" visibility="">
+      <implements name="android.os.Parcelable.Creator" name-generic-aware="android.os.Parcelable.Creator&lt;com.viewpagerindicator.TitlePageIndicator.SavedState&gt;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="createFromParcel" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.os.Parcel">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="newArray" native="false" return="java.lang.Object[]" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.view.View" extends-generic-aware="android.view.View" final="false" name="UnderlinePageIndicator" static="false" visibility="public">
+      <implements name="com.viewpagerindicator.PageIndicator" name-generic-aware="com.viewpagerindicator.PageIndicator">
+      </implements>
+      <constructor deprecated="not deprecated" final="false" name="UnderlinePageIndicator" static="false" type="com.viewpagerindicator.UnderlinePageIndicator" visibility="public">
+        <parameter name="p0" type="android.content.Context">
+        </parameter>
+        <parameter name="p1" type="android.util.AttributeSet">
+        </parameter>
+        <parameter name="p2" type="int">
+        </parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="UnderlinePageIndicator" static="false" type="com.viewpagerindicator.UnderlinePageIndicator" visibility="public">
+        <parameter name="p0" type="android.content.Context">
+        </parameter>
+        <parameter name="p1" type="android.util.AttributeSet">
+        </parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="UnderlinePageIndicator" static="false" type="com.viewpagerindicator.UnderlinePageIndicator" visibility="public">
+        <parameter name="p0" type="android.content.Context">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFadeDelay" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFadeLength" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getFades" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getSelectedColor" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="notifyDataSetChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onPageScrollStateChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onPageScrolled" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+        <parameter name="p1" type="float">
+        </parameter>
+        <parameter name="p2" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onPageSelected" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onRestoreInstanceState" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.os.Parcelable">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onSaveInstanceState" native="false" return="android.os.Parcelable" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setCurrentItem" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setFadeDelay" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setFadeLength" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setFades" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="boolean">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOnPageChangeListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.support.v4.view.ViewPager.OnPageChangeListener">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSelectedColor" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setViewPager" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.support.v4.view.ViewPager">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setViewPager" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.support.v4.view.ViewPager">
+        </parameter>
+        <parameter name="p1" type="int">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="UnderlinePageIndicator.1" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="UnderlinePageIndicator.2" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="android.view.View.BaseSavedState" extends-generic-aware="android.view.View.BaseSavedState" final="false" name="UnderlinePageIndicator.SavedState" static="true" visibility="">
+      <constructor deprecated="not deprecated" final="false" name="UnderlinePageIndicator.SavedState" static="false" type="com.viewpagerindicator.UnderlinePageIndicator.SavedState" visibility="public">
+        <parameter name="p0" type="android.os.Parcelable">
+        </parameter>
+      </constructor>
+      <field deprecated="not deprecated" final="true" name="CREATOR" static="true" transient="false" type="android.os.Parcelable.Creator" type-generic-aware="android.os.Parcelable.Creator&lt;com.viewpagerindicator.UnderlinePageIndicator.SavedState&gt;" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="UnderlinePageIndicator.SavedState.1" static="true" visibility="">
+      <implements name="android.os.Parcelable.Creator" name-generic-aware="android.os.Parcelable.Creator&lt;com.viewpagerindicator.UnderlinePageIndicator.SavedState&gt;">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="createFromParcel" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="android.os.Parcel">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="newArray" native="false" return="java.lang.Object[]" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="int">
+        </parameter>
+      </method>
+    </class>
+  </package>
+</api>
